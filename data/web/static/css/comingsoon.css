@@ -1,0 +1,103 @@
+body{
+
+    background-image: url(../images/comingsoon/back1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.font{
+    position: relative;
+    right: 140px;
+    top: 50px;
+}
+.logo{
+    position: relative;
+    top: -100px;
+}
+
+.font img{
+    width: 70%;
+}
+
+.logo img{
+    width: 30%;
+    border-radius:60%;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+.logo img:hover{
+    width: 32%;
+
+}
+
+@media screen and (max-width: 992px) {
+    body{
+
+        background-image: url(../images/comingsoon/768.jpg);
+
+    }
+    .font{
+        position: relative;
+        right: 20px;
+        top: 250px;
+
+    }
+    .logo{
+        position: relative;
+        top:200px;
+    }
+
+    .font img{
+        width: 90%;
+    }
+
+    .logo img{
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo img:hover{
+      width: 58%;
+
+  }
+
+    body{
+
+        background-image: url(../images/comingsoon/New2.jpg);
+
+    }
+    .font{
+        position: relative;
+        right: 20px;
+        top: 250px;
+    }
+    .logo{
+        position: relative;
+        top:200px;
+    }
+
+    .font img{
+        width: 90%;
+    }
+
+    .logo img{
+        width: 50%;
+
+    }
+}
+@media screen and (max-width: 480px) {
+
+  .logo img:hover{
+      width: 58%;
+
+  }
+
+    body{
+
+        background-image: url(../images/comingsoon/mobx.jpg);
+
+}
+}
